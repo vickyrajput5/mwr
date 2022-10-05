@@ -1,0 +1,111 @@
+
+.menu {
+    filter: drop-shadow(1px 1px 1px #4700b3);
+    width: 300px;
+  }
+  
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #212121;
+    position: absolute;
+    z-index: 12;
+    width: 300px;
+  }
+  
+  li {
+    color: #fff;
+    display: block;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  button {
+      position: relative;
+    -webkit-appearance: button;
+    background:#212121;
+    color: #ff0;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Permanent Marker",cursive;
+    letter-spacing: 5px;
+    z-index: 1222222;
+  }
+  
+  button path {
+    fill: var(--background);
+  }
+  
+  input {
+    accent-color: var(--accent);
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 50px;
+    align-items: center;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  input[type="number"] {
+    border: 0;
+    border-bottom: 1px dotted var(--accent);
+    color: var(--accent);
+    margin-left: 10px;
+    background: var(--background);
+    width: 50px;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-bottom: 2px solid var(--accent);
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .item {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: var(--accent);
+    color: var(--background);
+    font-size: 240px;
+    line-height: 260px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  
